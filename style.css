@@ -1,0 +1,115 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    height: 100%;
+}
+
+.hero-container {
+    background: linear-gradient(180deg, #6f42c1, #00c4cc);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    max-width: 1200px;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.user-actions button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn-signup {
+    background-color: #8a2be2;
+    color: white;
+    margin-right: 10px;
+}
+
+.btn-login {
+    background-color: white;
+    color: black;
+}
+
+.hero-content {
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10vh; /* Pushes content up a bit from true center */
+}
+
+.hero-content h1 {
+    font-size: 80px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.1;
+}
+
+.hero-content p {
+    font-size: 20px;
+    margin: 30px 0;
+    line-height: 1.5;
+    max-width: 600px;
+}
+
+.cta-buttons button {
+    border: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.btn-primary {
+    background-color: white;
+    color: black;
+}
+
+.btn-secondary {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    border: 1px solid white;
+}
